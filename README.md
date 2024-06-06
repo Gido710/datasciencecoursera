@@ -1,17 +1,5 @@
 # GettingAndCleaningDataFinal
 
-Final Project for Getting and Cleaning Data Course
-==================================================
-
-In this project, we used the HAR Dataset (Human Acitivty Recognition Using Smartphones) available on UCI's Machine Learning Repository. For this project, I collated the available data, cleaned it, and ran numerical analysis on it to derive the necessary tidy data. The following criteria for the project was as follows:
-
-* The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
-  1. The submitted data set is tidy. 
-  2. The Github repo contains the required scripts.
-  3. GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units,   and any other relevant information.
-  4. The README that explains the analysis files is clear and understandable.
-  5. The work submitted for this project is the work of the student who submitted it.
-
 Script Explanation
 ==================================================
 
@@ -39,8 +27,6 @@ This script contains a function called **"create_table"** which takes the test/t
 First, **create_table** receives the previously-named datas' sources and reads them into corresponding data-frames. 
 Next, it combines the participant, activity, and test/train data into a single data-frame.
 Finally, it labels the data-frame appropriately, removes previously created data-frames, and returns the collated data-frame back to the main script.
-
-
 
 Reference
 ================
