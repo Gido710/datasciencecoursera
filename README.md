@@ -1,4 +1,4 @@
-# GettingAndCleaningDataFinal
+# Getting And Cleaning Data
 
 Script Explanation
 ==================================================
